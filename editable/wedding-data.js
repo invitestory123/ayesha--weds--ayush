@@ -20,12 +20,13 @@ window.WEDDING_DATA = {
     month: "November",
     day: "30",
     year: "2026",
+    time: "Monday",
     subtitle: "Monday",
   },
 
   mainEvent: {
     title: "Ayush & Ayesha — Wedding Celebrations",
-    startsAt: "2026-11-29T10:00:00+05:30",
+    startsAt: "2026-11-30T19:00:00+05:30",
     durationMinutes: 300,
     dateLabel: "29th – 30th November 2026",
     timeLabel: "Kanpur, Uttar Pradesh",
