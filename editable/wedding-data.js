@@ -52,7 +52,7 @@ window.WEDDING_DATA = {
       text: "A chance meeting and an effortless connection that quickly blossomed into something truly magical.",
       image: "./editable/assets/story-1.jpg",
       aspectRatio: "3/4",
-      objectPosition: "top center",
+      objectPosition: "center",
     },
     {
       year: "2025",
