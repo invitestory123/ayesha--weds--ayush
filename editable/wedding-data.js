@@ -1,22 +1,31 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for rajwada-royale
- * Wedding Invitation: Ayesha & Ayush
+ * Wedding Invitation: Ayush & Ayesha
  */
 
 window.WEDDING_DATA = {
   couple: {
-    order: "bride-first",
+    order: "groom-first",
     groom: "Ayush",
     bride: "Ayesha",
     groomFull: "Ayush Awasthi",
     brideFull: "Ayesha Chauhan",
     monogram: "A & A",
-    hashtag: "#AyeshaWedsAyush",
+    hashtag: "#AyushWedsAyesha",
+  },
+
+  heroKicker: "You are invited",
+
+  heroDate: {
+    month: "November",
+    day: "29",
+    year: "2026",
+    subtitle: "Sunday",
   },
 
   mainEvent: {
-    title: "Ayesha & Ayush — Wedding Celebrations",
-    startsAt: "2026-11-29T19:00:00+05:30",
+    title: "Ayush & Ayesha — Wedding Celebrations",
+    startsAt: "2026-11-29T10:00:00+05:30",
     durationMinutes: 300,
     dateLabel: "29th – 30th November 2026",
     timeLabel: "Kanpur, Uttar Pradesh",
@@ -37,7 +46,7 @@ window.WEDDING_DATA = {
 
   story: [
     {
-      year: "2023",
+      year: "2025",
       title: "How It Began",
       text: "A chance meeting and an effortless connection that quickly blossomed into something truly magical.",
       image: "./editable/assets/story-1.jpg",
@@ -58,23 +67,34 @@ window.WEDDING_DATA = {
 
   events: [
     {
+      key: "haldi",
+      name: "Haldi",
+      startsAt: "2026-11-29T10:00:00+05:30",
+      durationMinutes: 180,
+      venue: "Courtyard",
+      address: "Hotel Imperial Grand, Kanpur",
+      dressCode: "Haldi Yellow",
+      dressCodeColor: "#EAB308",
+      note: "Morning sunshine, vibrant haldi, and joyful celebrations.",
+    },
+    {
       key: "sangeet",
-      name: "Sangeet & Celebration",
-      startsAt: "2026-11-29T19:00:00+05:30",
+      name: "Sangeet & Cocktail",
+      startsAt: "2026-11-29T20:30:00+05:30",
       durationMinutes: 240,
-      venue: "Hotel Imperial Grand",
-      address: "259, Mainawati Marg, Sambharpur, Kanpur, Uttar Pradesh 208017",
-      dressCode: "Festive Indian / Indo-Western",
+      venue: "The Ballroom",
+      address: "Hotel Imperial Grand, Kanpur",
+      dressCode: "Evening Glamour / Indo-Western",
       dressCodeColor: "#C9A84C",
-      note: "An evening filled with music, dance, celebrations, and a lavish dinner.",
+      note: "An evening filled with music, dance, cocktails, and celebration.",
     },
     {
       key: "wedding",
-      name: "Wedding Ceremony",
+      name: "Wedding",
       startsAt: "2026-11-30T19:00:00+05:30",
       durationMinutes: 300,
-      venue: "Hotel Imperial Grand",
-      address: "259, Mainawati Marg, Sambharpur, Kanpur, Uttar Pradesh 208017",
+      venue: "Green Park",
+      address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Royal Traditional Formals",
       dressCodeColor: "#7B1E2B",
       note: "Join us for the Baraat, Varmala, and sacred Pheras followed by the wedding feast.",
@@ -102,9 +122,14 @@ window.WEDDING_DATA = {
     signOff: "With love and gratitude,",
   },
 
+  emergencyContacts: [
+    { name: "Pratyush", relation: "Groom’s Brother", phone: "+91 95551 55519" },
+    { name: "Abhimanyu", relation: "Bride’s Brother", phone: "+91 88607 76997" },
+  ],
+
   contacts: [
-    { name: "Awasthi Family", phone: "+91 98765 43210" },
-    { name: "Chauhan Family", phone: "+91 98123 45678" },
+    { name: "Pratyush (Groom’s brother)", phone: "+91 95551 55519" },
+    { name: "Abhimanyu (Bride’s brother)", phone: "+91 88607 76997" },
   ],
 
   media: {

@@ -42,9 +42,15 @@ Edit `venue` in `editable/wedding-data.js`:
 Edit `gallery` array in `editable/wedding-data.js`:
 - Array of photo objects (`src`, `alt`)
 
-### Family Contacts
-Edit `contacts` array in `editable/wedding-data.js`:
-- Contact person names and phone numbers for guest assistance
+### Emergency & Family Contacts
+Edit `emergencyContacts` array in `editable/wedding-data.js`:
+- Displayed prominently at the end of the invitation with click-to-call buttons
+- Fields: `name`, `relation` (e.g. `"Groom's Side"`, `"Bride's Side"`), `phone`
+- Also sync `contacts` array for venue card assistance info
+
+### Hero Greeting
+Edit `heroKicker` in `editable/wedding-data.js`:
+- Greeting line above couple names on the first page (e.g. `"You are invited"`)
 
 ### Media & Assets
 Replace files directly in `editable/assets/` or update `media`:
