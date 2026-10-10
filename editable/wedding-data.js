@@ -82,7 +82,8 @@ window.WEDDING_DATA = {
       address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Haldi Yellow",
       dressCodeColor: "#EAB308",
-      note: "Morning sunshine, vibrant haldi, and joyful celebrations.",
+      note: "Doused in yellow sunshine, vibrant music, and boundless joy — let the celebrations begin!",
+      noteColor: "#1d4ed8",
     },
     {
       key: "sangeet",
@@ -93,7 +94,8 @@ window.WEDDING_DATA = {
       address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Evening Glamour / Indo-Western",
       dressCodeColor: "#C9A84C",
-      note: "An evening filled with music, dance, cocktails, and celebration.",
+      note: "Put on your dancing shoes for an electric night of music, cocktails, and non-stop celebration!",
+      noteColor: "#1d4ed8",
     },
     {
       key: "baraat",
@@ -102,9 +104,11 @@ window.WEDDING_DATA = {
       durationMinutes: 120,
       venue: "Near courtyard",
       address: "Hotel Imperial Grand, Kanpur",
-      note: "Assembly 5pm",
+      dressCode: "Traditional Formals",
+      dressCodeColor: "#C9A84C",
+      note: "Assembly at 5:00 PM near Courtyard — get ready to dance our hearts out with the dhol!",
+      noteColor: "#1d4ed8",
     },
-
     {
       key: "wedding",
       name: "Wedding",
@@ -114,7 +118,8 @@ window.WEDDING_DATA = {
       address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Royal Traditional Formals",
       dressCodeColor: "#7B1E2B",
-      note: "Join us for the Varmala and sacred Pheras followed by the wedding feast.",
+      note: "Join us for the grand Varmala and sacred Pheras, followed by a lavish royal feast!",
+      noteColor: "#1d4ed8",
     },
   ],
 
