@@ -18,9 +18,9 @@ window.WEDDING_DATA = {
 
   heroDate: {
     month: "November",
-    day: "29",
+    day: "30",
     year: "2026",
-    subtitle: "Sunday",
+    subtitle: "Monday",
   },
 
   mainEvent: {
@@ -37,7 +37,7 @@ window.WEDDING_DATA = {
       line: "cordially invite you to celebrate the wedding of their son",
     },
     brideSide: {
-      parents: "Mr. & Mrs. Chauhan",
+      parents: "Col & Mrs Chauhan",
       line: "together with the family of their daughter",
     },
   },
@@ -89,6 +89,16 @@ window.WEDDING_DATA = {
       note: "An evening filled with music, dance, cocktails, and celebration.",
     },
     {
+      key: "baraat",
+      name: "Baraat",
+      startsAt: "2026-11-30T17:00:00+05:30",
+      durationMinutes: 120,
+      venue: "Near courtyard",
+      address: "Hotel Imperial Grand, Kanpur",
+      note: "Assembly 5pm",
+    },
+
+    {
       key: "wedding",
       name: "Wedding",
       startsAt: "2026-11-30T19:00:00+05:30",
@@ -97,7 +107,7 @@ window.WEDDING_DATA = {
       address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Royal Traditional Formals",
       dressCodeColor: "#7B1E2B",
-      note: "Join us for the Baraat, Varmala, and sacred Pheras followed by the wedding feast.",
+      note: "Join us for the Varmala and sacred Pheras followed by the wedding feast.",
     },
   ],
 
