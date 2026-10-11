@@ -75,7 +75,7 @@ window.WEDDING_DATA = {
   events: [
     {
       key: "haldi",
-      name: "Haldi",
+      name: "The Golden Hour",
       startsAt: "2026-11-29T10:00:00+05:30",
       durationMinutes: 180,
       venue: "Courtyard",
@@ -87,7 +87,7 @@ window.WEDDING_DATA = {
     },
     {
       key: "sangeet",
-      name: "Sangeet & Cocktail",
+      name: "Symphony of Love",
       startsAt: "2026-11-29T20:30:00+05:30",
       durationMinutes: 240,
       venue: "The Ballroom",
@@ -157,6 +157,7 @@ window.WEDDING_DATA = {
   ],
 
   media: {
+    introVideo: "./editable/assets/invite-open222.mp4",
     doorPanel: "./editable/assets/door-panel.png",
     couple: "./editable/assets/couple.png",
     floralCorner: "./editable/assets/floral-corner.png",
