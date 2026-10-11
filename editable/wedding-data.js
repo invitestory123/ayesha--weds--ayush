@@ -1,17 +1,17 @@
 /**
  * wedding-data.js — Customer-facing editable data layer for rajwada-royale
- * Wedding Invitation: Ayush & Ayesha
+ * Wedding Invitation: Ayesha & Ayush
  */
 
 window.WEDDING_DATA = {
   couple: {
-    order: "groom-first",
-    groom: "Ayush",
+    order: "bride-first",
     bride: "Ayesha",
-    groomFull: "Ayush Awasthi",
+    groom: "Ayush",
     brideFull: "Ayesha Chauhan",
+    groomFull: "Ayush Awasthi",
     monogram: "A & A",
-    hashtag: "#AyushWedsAyesha",
+    hashtag: "#AyeshaWedsAyush",
   },
 
   heroKicker: "You are invited",
@@ -25,7 +25,7 @@ window.WEDDING_DATA = {
   },
 
   mainEvent: {
-    title: "Ayush & Ayesha — Wedding Celebrations",
+    title: "Ayesha & Ayush — Wedding Celebrations",
     startsAt: "2026-11-30T19:00:00+05:30",
     durationMinutes: 300,
     dateLabel: "29th – 30th November 2026",
@@ -33,13 +33,13 @@ window.WEDDING_DATA = {
   },
 
   families: {
-    groomSide: {
-      parents: "Mr. & Mrs. Awasthi",
-      line: "cordially invite you to celebrate the wedding of their son",
-    },
     brideSide: {
       parents: "Col & Mrs Chauhan",
-      line: "together with the family of their daughter",
+      line: "cordially invite you to celebrate the wedding of their daughter",
+    },
+    groomSide: {
+      parents: "Mr. & Mrs. Awasthi",
+      line: "together with the family of their son",
     },
   },
 
@@ -145,15 +145,15 @@ window.WEDDING_DATA = {
   },
 
   emergencyContacts: [
+    { name: "Abhimanyu", relation: "Bride’s Brother", phone: "+91 88607 76997" },
     { name: "Pratyush", relation: "Groom’s Brother", phone: "+91 95551 55519" },
     { name: "Akansha", relation: "Groom’s Sister", phone: "+91 88007 77010" },
-    { name: "Abhimanyu", relation: "Bride’s Brother", phone: "+91 88607 76997" },
   ],
 
   contacts: [
+    { name: "Abhimanyu (Bride’s brother)", phone: "+91 88607 76997" },
     { name: "Pratyush (Groom’s brother)", phone: "+91 95551 55519" },
     { name: "Akansha (Groom’s sister)", phone: "+91 88007 77010" },
-    { name: "Abhimanyu (Bride’s brother)", phone: "+91 88607 76997" },
   ],
 
   media: {
