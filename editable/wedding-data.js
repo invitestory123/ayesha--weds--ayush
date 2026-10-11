@@ -17,7 +17,7 @@ window.WEDDING_DATA = {
   heroKicker: "You are invited",
 
   heroDate: {
-    month: "November",
+    month: "NOV",
     day: "30",
     year: "2026",
     time: "Monday",
@@ -82,8 +82,8 @@ window.WEDDING_DATA = {
       address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Haldi Yellow",
       dressCodeColor: "#EAB308",
-      note: "Doused in yellow sunshine, vibrant music, and boundless joy — let the celebrations begin!",
-      noteColor: "#1d4ed8",
+      note: "Doused in yellow sunshine, vibrant music, and boundless joy! Let the celebrations begin!",
+      noteColor: "#b91c5c",
     },
     {
       key: "sangeet",
@@ -95,7 +95,7 @@ window.WEDDING_DATA = {
       dressCode: "Evening Glamour / Indo-Western",
       dressCodeColor: "#C9A84C",
       note: "Put on your dancing shoes for an electric night of music, cocktails, and non-stop celebration!",
-      noteColor: "#1d4ed8",
+      noteColor: "#b91c5c",
     },
     {
       key: "baraat",
@@ -106,8 +106,8 @@ window.WEDDING_DATA = {
       address: "Hotel Imperial Grand, Kanpur",
       dressCode: "Traditional Formals",
       dressCodeColor: "#C9A84C",
-      note: "Assembly at 5:00 PM near Courtyard — get ready to dance our hearts out with the dhol!",
-      noteColor: "#1d4ed8",
+      note: "Assembly at 5:00 PM near Courtyard! Get ready to dance our hearts out with the dhol!",
+      noteColor: "#b91c5c",
     },
     {
       key: "wedding",
@@ -119,7 +119,7 @@ window.WEDDING_DATA = {
       dressCode: "Royal Traditional Formals",
       dressCodeColor: "#7B1E2B",
       note: "Join us for the grand Varmala and sacred Pheras, followed by a lavish royal feast!",
-      noteColor: "#1d4ed8",
+      noteColor: "#b91c5c",
     },
   ],
 
@@ -146,11 +146,13 @@ window.WEDDING_DATA = {
 
   emergencyContacts: [
     { name: "Pratyush", relation: "Groom’s Brother", phone: "+91 95551 55519" },
+    { name: "Akansha", relation: "Groom’s Sister", phone: "+91 88007 77010" },
     { name: "Abhimanyu", relation: "Bride’s Brother", phone: "+91 88607 76997" },
   ],
 
   contacts: [
     { name: "Pratyush (Groom’s brother)", phone: "+91 95551 55519" },
+    { name: "Akansha (Groom’s sister)", phone: "+91 88007 77010" },
     { name: "Abhimanyu (Bride’s brother)", phone: "+91 88607 76997" },
   ],
 
